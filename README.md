@@ -7,6 +7,8 @@
 ![Electron](https://img.shields.io/badge/Electron-27.0-47848F)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Status](https://img.shields.io/badge/status-alpha-orange)
+![Tests](https://img.shields.io/badge/tests-passing-brightgreen)
+![Coverage](https://img.shields.io/badge/coverage-70%25-yellow)
 
 一个优雅的 macOS 菜单栏应用，让你能够一键截图并使用 Google 翻译进行图片翻译。
 
@@ -159,8 +161,23 @@ class ScreenshotService {
 ### 测试
 
 ```bash
-npm run test
+# 运行所有测试
+npm test
+
+# 监听模式（开发时）
+npm run test:watch
+
+# 生成覆盖率报告
+npm run test:coverage
+
+# 详细输出
+npm run test:verbose
 ```
+
+查看 [TESTING.md](./TESTING.md) 了解详细的测试指南。
+
+**测试覆盖率目标**: 70%  
+**当前状态**: ✅ 配置完成，核心服务已覆盖
 
 ## 📝 开发计划
 
