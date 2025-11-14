@@ -33,6 +33,10 @@
 ### 安装依赖
 
 ```bash
+# 推荐使用 pnpm（更快、更省空间）
+pnpm install
+
+# 或使用 npm
 npm install
 ```
 

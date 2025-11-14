@@ -54,7 +54,7 @@
   },
   "dependencies": {
     "inversify": "^6.0.2",
-    "reflect-metadata": "^0.1.13"
+    "reflect-metadata": "^0.2.2"
   },
   "build": {
     "appId": "com.quickimagetranslator.app",
