@@ -1,6 +1,22 @@
 # Quick Image Translator
 
+<div align="center">
+
+![Platform](https://img.shields.io/badge/platform-macOS-blue)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.3-blue)
+![Electron](https://img.shields.io/badge/Electron-27.0-47848F)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/status-alpha-orange)
+
 一个优雅的 macOS 菜单栏应用，让你能够一键截图并使用 Google 翻译进行图片翻译。
+
+[English](./README.md) | 简体中文
+
+[快速开始](./QUICKSTART.md) • [贡献指南](./CONTRIBUTING.md) • [报告问题](https://github.com/Wangggym/quick-image-translator/issues) • [开发计划](./TODO.md)
+
+</div>
+
+---
 
 ## ✨ 特性
 
@@ -146,15 +162,37 @@ class ScreenshotService {
 npm run test
 ```
 
-## 📝 TODO
+## 📝 开发计划
 
-查看 [TODO.md](./TODO.md) 了解开发计划和进度。
-
-## 📄 许可证
-
-MIT License
+查看 [TODO.md](./TODO.md) 了解详细的开发计划和进度。
 
 ## 🤝 贡献
 
 欢迎提交 Issue 和 Pull Request！
+
+请先阅读 [贡献指南](./CONTRIBUTING.md) 了解如何参与项目开发。
+
+### 贡献者
+
+感谢所有为这个项目做出贡献的开发者！
+
+## 📄 许可证
+
+本项目采用 [MIT License](./LICENSE) 开源协议。
+
+## 🔗 相关链接
+
+- [GitHub 仓库](https://github.com/Wangggym/quick-image-translator)
+- [问题追踪](https://github.com/Wangggym/quick-image-translator/issues)
+- [更新日志](https://github.com/Wangggym/quick-image-translator/releases)
+
+---
+
+<div align="center">
+
+如果这个项目对你有帮助，请给个 ⭐️ Star 支持一下！
+
+Made with ❤️ by the Quick Image Translator team
+
+</div>
 
