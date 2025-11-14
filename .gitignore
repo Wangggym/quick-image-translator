@@ -34,3 +34,11 @@ tmp/
 # Screenshots (for testing)
 screenshots/
 
+# Test coverage
+coverage/
+*.coverage
+.nyc_output/
+
+# Jest
+.jest-cache/
+
