@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'">
+  <title>Translation Result</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Translation Result</h1>
+    <div class="result-box">
+      <div class="section">
+        <h2>Original Text</h2>
+        <div id="original-text" class="text-content"></div>
+      </div>
+      <div class="divider"></div>
+      <div class="section">
+        <h2>Translated Text</h2>
+        <div id="translated-text" class="text-content"></div>
+      </div>
+    </div>
+    <div class="actions">
+      <button id="copy-btn" class="btn">Copy Translation</button>
+      <button id="close-btn" class="btn btn-secondary">Close</button>
+    </div>
+  </div>
+  <script src="../../dist/renderer/result/index.js"></script>
+</body>
+</html>
+
